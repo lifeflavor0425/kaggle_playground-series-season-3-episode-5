@@ -28,7 +28,7 @@ train.shape, test.shape, submission.shape
 
 
 ```python
-wine_ori = pd.read_csv('/content/drive/MyDrive/cloud_ai/3.머신러닝/playground-series-season-3-episode-5/WineQT.csv', index_col='Id')
+wine_ori = pd.read_csv('./playground-series-season-3-episode-5/WineQT.csv', index_col='Id')
 wine_ori.shape
 ```
 
