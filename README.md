@@ -1,5 +1,5 @@
 ```python
-# !git clone ''
+# !git clone 'https://github.com/lifeflavor0425/kaggle_playground-series-season-3-episode-5.git'
 ```
 
 # 데이터 준비(수집,준비)
