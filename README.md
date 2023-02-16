@@ -11,9 +11,9 @@
 import pandas as pd
 import numpy as np
 
-test = pd.read_csv('/content/drive/MyDrive/cloud_ai/3.머신러닝/playground-series-season-3-episode-5/test.csv', index_col='Id')
-train = pd.read_csv('/content/drive/MyDrive/cloud_ai/3.머신러닝/playground-series-season-3-episode-5/train.csv',index_col='Id')
-submission = pd.read_csv('/content/drive/MyDrive/cloud_ai/3.머신러닝/playground-series-season-3-episode-5/sample_submission.csv',index_col='Id')
+test = pd.read_csv('./playground-series-season-3-episode-5/test.csv', index_col='Id')
+train = pd.read_csv('./playground-series-season-3-episode-5/train.csv',index_col='Id')
+submission = pd.read_csv('./playground-series-season-3-episode-5/sample_submission.csv',index_col='Id')
 train.shape, test.shape, submission.shape
 ```
 
